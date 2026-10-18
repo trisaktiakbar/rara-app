@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.raraapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RaraApp">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RaraAppNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RaraAppNoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RaraAppNoActionBar">
+        </activity>
+        <activity
+            android:name=".AnalisisActivity"
+            android:exported="false"
+            android:label="Analisis" />
+        <activity
+            android:name=".MenuRiwayatActivity"
+            android:exported="false"
+            android:label="Riwayat" />
+        <activity
+            android:name=".RiwayatSuhuActivity"
+            android:exported="false"
+            android:label="Suhu" />
+        <activity
+            android:name=".RiwayatKelembabanUdaraActivity"
+            android:exported="false"
+            android:label="Kelembaban Udara" />
+        <activity
+            android:name=".RiwayatHujanActivity"
+            android:exported="false"
+            android:label="Hujan" />
+        <activity
+            android:name=".RiwayatCahayaActivity"
+            android:exported="false"
+            android:label="Penyinaran Matahari" />
+        <activity
+            android:name=".CuacaRealtimeActivity"
+            android:exported="false"
+            android:label="Cuaca Realtime" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RaraAppNoActionBar" />
+    </application>
+
+</manifest>

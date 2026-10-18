@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "859160554059",
+    "firebase_url": "https://raraappproject-default-rtdb.firebaseio.com",
+    "project_id": "raraappproject",
+    "storage_bucket": "raraappproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859160554059:android:a8df9cb131a821c5173bce",
+        "android_client_info": {
+          "package_name": "com.example.raraapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859160554059-mssos46riha203uirigqumdq7u8h7g2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5n0cWmTJK8CWKJhTh8bOdlOkqXBj5LcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859160554059-mssos46riha203uirigqumdq7u8h7g2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

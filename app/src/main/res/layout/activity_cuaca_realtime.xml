@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuacaRealtimeActivity">
+
+    <!-- Hujan -->
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/card_hujan"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/icon_hujan"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_hujan"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/icon_hujan">
+
+                <TextView
+                    android:id="@+id/text_title_hujan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Hujan"
+                    android:textColor="@color/primary_color"
+                    android:textStyle="bold"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/quicksand_bold"/>
+
+                <TextView
+                    android:id="@+id/text_persentase_hujan"
+                    android:layout_width="match_parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text_title_hujan"
+                    android:layout_marginTop="5dp"
+                    android:textSize="24pt"
+                    android:fontFamily="@font/tommy_regular"/>
+
+                <TextView
+                    android:id="@+id/text_status_hujan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text_persentase_hujan"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="5dp"
+                    android:textSize="8pt"
+                    android:fontFamily="@font/quicksand_bold"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+    <!--___________________________________-->
+
+
+    <!-- Kelembaban Udara -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_suhu"
+        app:layout_constraintTop_toBottomOf="@+id/card_hujan"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/icon_suhu"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_suhu"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/icon_suhu"
+                app:layout_constraintRight_toRightOf="parent">
+
+                <TextView
+                    android:id="@+id/text_title_suhu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Suhu"
+                    android:textColor="@color/primary_color"
+                    android:textStyle="bold"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/quicksand_bold"/>
+
+                <TextView
+                    android:id="@+id/text_persentase_suhu"
+                    android:layout_width="match_parent"
+                    app:layout_constraintLeft_toLeftOf="@id/text_title_suhu"
+                    app:layout_constraintRight_toRightOf="@id/text_title_suhu"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text_title_suhu"
+                    android:layout_marginTop="5dp"
+                    android:textSize="24pt"
+                    android:fontFamily="@font/tommy_regular"/>
+
+                <TextView
+                    android:id="@+id/text_status_suhu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text_persentase_suhu"
+                    app:layout_constraintLeft_toLeftOf="@+id/text_title_suhu"
+                    app:layout_constraintRight_toRightOf="@+id/text_title_suhu"
+                    android:layout_marginTop="5dp"
+                    android:textSize="8pt"
+                    android:fontFamily="@font/quicksand_bold"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+    <!--___________________________________-->
+
+
+
+    <!-- Kelembaban Udara -->
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/card_kelembaban_udara"
+        app:layout_constraintTop_toBottomOf="@+id/card_suhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/icon_kelembaban_udara"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_kelembaban_udara"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/icon_kelembaban_udara">
+
+                <TextView
+                    android:id="@+id/text_title_kelembaban_udara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Kelembaban Udara"
+                    android:textColor="@color/primary_color"
+                    android:textStyle="bold"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/quicksand_bold"/>
+
+                <TextView
+                    android:id="@+id/text_persentase_kelembaban_udara"
+                    android:layout_width="match_parent"
+                    app:layout_constraintLeft_toLeftOf="@id/text_title_kelembaban_udara"
+                    app:layout_constraintRight_toRightOf="@id/text_title_kelembaban_udara"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text_title_kelembaban_udara"
+                    android:layout_marginTop="5dp"
+                    android:textSize="24pt"
+                    android:fontFamily="@font/tommy_regular"/>
+
+                <TextView
+                    android:id="@+id/text_status_kelembaban_udara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text_persentase_kelembaban_udara"
+                    app:layout_constraintLeft_toLeftOf="@+id/text_title_kelembaban_udara"
+                    app:layout_constraintRight_toRightOf="@+id/text_title_kelembaban_udara"
+                    android:layout_marginTop="5dp"
+                    android:textSize="8pt"
+                    android:fontFamily="@font/quicksand_bold"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+    <!--___________________________________-->
+
+
+
+    <!-- Cahaya -->
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/card_cahaya"
+        app:layout_constraintTop_toBottomOf="@+id/card_kelembaban_udara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/icon_cahaya"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_matahari"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/icon_cahaya">
+
+                <TextView
+                    android:id="@+id/text_title_cahaya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:text="Cahaya"
+                    android:textColor="@color/primary_color"
+                    android:textStyle="bold"
+                    android:textSize="10pt"
+                    android:fontFamily="@font/quicksand_bold"/>
+
+                <TextView
+                    android:id="@+id/text_persentase_cahaya"
+                    android:layout_width="match_parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/text_title_cahaya"
+                    android:layout_marginTop="5dp"
+                    android:textSize="14pt"
+                    android:fontFamily="@font/tommy_regular"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+    <!--___________________________________-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

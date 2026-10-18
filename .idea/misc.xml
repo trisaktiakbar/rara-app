@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Edukasi/Kuliah/TEKNIK KOMPUTER/Semester 6/Deep Learning/Pertemuan 16/New folder/RaraApp/app/src/main/res/layout/activity_login.xml" value="0.1125" />
+        <entry key="..\:/Edukasi/Kuliah/TEKNIK KOMPUTER/Semester 6/Deep Learning/Pertemuan 16/New folder/RaraApp/app/src/main/res/layout/activity_main.xml" value="0.1125" />
+        <entry key="..\:/Edukasi/Kuliah/TEKNIK KOMPUTER/Semester 6/Deep Learning/Pertemuan 16/New folder/RaraApp/app/src/main/res/layout/activity_register.xml" value="0.1125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/drawable/ic__511207501596027201.xml" value="0.165" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/drawable/ic_analisis.xml" value="0.1375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/drawable/ic_cuaca_realtime.xml" value="0.1375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/drawable/ic_logout.xml" value="0.1375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/drawable/ic_pengaturan.xml" value="0.1375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/font/font.xml" value="0.234375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_analisis.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_analisis_kelembaban_udara.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_analisis_suhu.xml" value="0.10371376811594203" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_cuaca_realtime.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_login.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_menu_riwayat.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_register.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_riwayat.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_riwayat_cahaya.xml" value="0.21" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_riwayat_hujan.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_riwayat_kelembaban_udara.xml" value="0.1703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_riwayat_suhu.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RaraApp/app/src/main/res/layout/activity_splash.xml" value="0.18854166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
